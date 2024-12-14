@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+
+
+
+
+body {
+  font-family: 'merriweather', serif;
+  background-color: aliceblue;
+  background-image: url("https://github.com/Hellko666/FreeCodeCamp-Projects/blob/main/Responsive%20Web%20Design/Tribute%20Page/images/white%20paper%20background.jpg?raw=true");
+  background-size: 100%;
+}
+
+.container {
+  width: 95%;
+  max-width: 1000px; 
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(213, 210, 210, 0.54);
+  line-height: 2rem;
+  border-radius: 10px;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title h1 {
+  line-height: 2.5rem;
+}
+
+.title p {
+  font-style: italic;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 1.2rem;
+}
+
+
+.img-div {
+  margin: 0 auto;
+}
+
+.img-div img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-weight: bold;
+  text-align: center; 
+}
+
+.tribute-link a:hover,
+.tribute-link a:focus {
+  opacity: .75;
+}
