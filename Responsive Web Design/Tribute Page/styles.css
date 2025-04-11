@@ -7,13 +7,10 @@
 }
 
 
-
-
-
 body {
   font-family: 'merriweather', serif;
   background-color: aliceblue;
-  background-image: url("https://github.com/Hellko666/FreeCodeCamp-Projects/blob/main/Responsive%20Web%20Design/Tribute%20Page/images/white%20paper%20background.jpg?raw=true");
+  background-image: url("https://github.com/Fird4v5/FreeCodeCamp-Projects/blob/main/Responsive%20Web%20Design/Tribute%20Page/images/white%20paper%20background.jpg?raw=true");
   background-size: 100%;
 }
 
@@ -58,6 +55,10 @@ body {
 figcaption {
   font-weight: bold;
   text-align: center; 
+}
+
+.tribute-link {
+  text-align: center;
 }
 
 .tribute-link a:hover,
