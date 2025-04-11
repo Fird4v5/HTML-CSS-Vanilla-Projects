@@ -189,8 +189,9 @@ input {
 
 
 .pricing__img img {
-  width: 100%;
+  width: 80%;
   margin-bottom: 1rem;
+  border-radius: 20px; 
 }
 
 .pricing__description {
