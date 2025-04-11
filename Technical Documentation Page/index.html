@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML technical documentation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <nav id="navbar">
+    <header>Python</header>
+    <ul>
+      <li><a class="nav-link" href="#1._introduction">1. Introduction</a></li>
+      <li><a class="nav-link" href="#2._getting_started">2. Getting Started</a></li>
+      <li><a class="nav-link" href="#3._basic_syntax">3. Basic Syntax</a></li>
+      <li><a class="nav-link" href="#4._functions">4. Functions</a></li>
+      <li><a class="nav-link" href="#5._modules_and_libraries">5. Modules and Libraries</a></li>
+      <li><a class="nav-link" href="#6._further_exploration">6. Further Exploration</a></li>
+    </ul>
+  </nav>
+
+
+
+    <main id="main-doc">
+      <p>
+        This document provides a basic introduction to Python, covering fundamental concepts and syntax. It's intended for individuals new to programming or those seeking a starting point with Python.
+      </p>
+
+      <section id="1._introduction" class="main-section">
+        <header>1. Introduction</header>
+        <p>
+          Python is a high-level, interpreted, general-purpose programming language known for its readability, versatility, and extensive libraries. It is widely used in various fields, including web development, data science, machine learning, scripting, and more.
+        </p>
+      </section>
+
+
+      <section id="2._getting_started" class="main-section">
+        <header>2. Getting Started</header>
+        <p>
+          To begin working with Python, you need a Python interpreter. This can be installed through the official <a href="https://www.python.org/">Python website</a>. Once installed, you can open a terminal or command prompt and type <q>python</q> to access the interactive interpreter.
+        </p>
+      </section>
+
+
+      <section id="3._basic_syntax"
+      class="main-section">
+        <header>3. Basic Syntax</header>
+        <p>
+          Python uses a simple and consistent syntax:
+        </p>
+        <ul>
+          <li><b>Variables:</b> Variables store data and are declared using a name followed by an assignment operator (`=`).
+          <br>
+          <code>
+            name = "Alice"<br>
+            age = 30
+          </code>
+          </li>
+          <li><b>Data Types:</b> Python supports various data types:
+          <!-- ANOTHER INSIDE UL LIST -->
+            <ul>
+              <li><b>Numbers:</b> Integers (`int`), floating-point numbers (`float`)</li>
+              <li><b>Strings:</b> Text enclosed in single (`'`) or double (`"`) quotes.</li>
+              <li><b>Booleans:</b> `True` or `False`.</li>
+              <li><b>Lists:</b> Ordered sequences of elements.</li>
+              <li><b>Dictionaries:</b> Key-value pairs.</b></li>
+            </ul>
+          </li>
+          <li><b>Operators:</b> Operators perform operations on data:
+            <!-- ANOTHER INSIDE UL LIST -->
+            <ul>
+              <li><b>Arithmetic operators:</b> `+`, `-`, `*`, `/`, `%`, `//` (floor division)</li>
+              <li><b>Comparison operators:</b> `==`, `!=`, `<`, `>`, `<=`, `>=`
+              </li>
+              <li><b>Logical operators:</b> `and`, `or`, `not`</li>
+            </ul>
+          </li>
+          <li><b>Conditional Statements:</b>
+            <!-- ANOTHER INSIDE UL LIST -->
+            <ul>
+              <li><b>`if` statement:</b> Executes code block if a condition is true.</li>
+              <li><b>`elif` statement:</b> Executes code block if the previous `if` condition is false and the current condition is true.</li>
+              <li><b>`else`</b> statement: Executes code block if all previous conditions are false.</li>
+              <code>
+                if age >= 18:<br>
+                print("You are an adult"<br>
+                elif age >= 13:</br>
+                print("You are a teenager")</br>
+                else:<br>
+                print("You are a child")
+              </code>
+            </ul>
+          </li>
+          <li><b>Loops:</b>
+            <!-- ANOTHER INSIDE UL LIST -->
+            <ul>
+              <li><b>`for` loop:</b> Iterates over a sequence of elements.</li>
+              <li><b>`while` loop:</b> Executes code block repeatedly as long as a condition is true.</li>
+              <code>
+                <p>
+                  for i in range(5):<br>
+                    print(i)
+                </p>
+                <p>
+                  i = 0<br>
+                  while i < 5:<br>
+                  print(i)<br>
+                  i += 1
+                </p>
+              </code>
+          </li>
+        </ul>
+      </section>
+
+
+      <section id="4._functions" class="main-section">
+        <header>4. Functions</header>
+        <p>
+          Functions are blocks of reusable code that perform specific tasks. They are defined using the `def` keyword:
+        </p>
+        <code>
+          <p>
+            def greet(name):<br>
+            """Greets a user with their name."""<br>
+            print("Hello, " + name + "!")
+          </p>
+          <p>
+            greet("Bob")
+          </p>
+        </code>
+      </section>
+
+
+      <section id="5._modules_and_libraries"
+      class="main-section">
+        <header class="header5">5. Modules and Libraries</header>
+        <p>
+          Python's strength lies in its extensive libraries. Modules are files containing code that can be imported and used in other programs.
+        </p>
+        <code>
+          <p>
+            import math
+          </p>
+          <p>
+            print(math, sqrt(25))
+          </p>
+        </code>
+        <p>
+          This code imports the `math` module and uses its `sqrt` function to calculate the square root of 25.
+        </p>
+      </section>
+
+
+      <section id="6._further_exploration"
+      class="main-section">
+        <header>6. Further Exploration</header>
+        <p>
+          This document provided a basic overview of Python. For more advanced concepts and applications, explore resources such as:
+        </p>
+        <ul>
+          <li>
+            <a href="https://docs.python.org/">Official Python Documentation</a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/python/">Online Tutorials</a>
+          </li>
+          <li>
+            <a href="https://www.python.org/community/forums/">Python Community Forums:</a>
+          </li>
+        <p class="lastp">
+            With dedication and practice, you can master the art of programming in Python and unleash its potential in various domains.
+        </p>
+      </section>
+
+
+    </main>  
+  </body>
+</html>
