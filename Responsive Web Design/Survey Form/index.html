@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FutureL's Customer Satisfaction Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main>
+  <header class="header">
+    <h1 id="title"><span>FutureL's</span> Customer Satisfaction Survey</h1>
+    <p id="description">
+      We value your feedback! Your opinions help us improve our services and provide a better experience for all our customers. Please take a few minutes to answer these questions honestly.
+    </p>
+  </header>
+
+
+    <form id="survey-form" action="https://helloworld.com/somewhere/" method="POST">
+
+    <fieldset>
+
+    <label class="label-title" id="name-label" for="name"> Please Enter Your Name:</label> 
+    <input id="name" type="text" name="name" placeholder="Elon Musk" required/>
+    
+    <label class="label-title" id="email-label" for="email">Please Enter Your Email:</label> 
+    <input id="email" type="email" placeholder="elonmusk@gmail.com" name="email" required>
+
+    <label class="label-title" id="number-label" for="number">Please Enter Your Age:</label>
+    <input id="number" type="number" name="age" min="13" max="120" placeholder="34">
+
+    </fieldset>
+
+    <fieldset>
+
+      <p class="label-title">Which of the following aspects of your experience with FutureL were particularly important to you? (Check all that apply)</p>
+      
+      <label for="product-quality"><input type="checkbox" id="product-quality" name="important" value="product-quality"> Product Quality</label>
+      
+      <label for="customer-service"> <input type="checkbox" id="customer-service" name="important" value="customer-service"> Customer Service</label>
+
+      <label for="price-value"><input type="checkbox" id="price-value" name="important" value="price-value"> Price/Value</label>
+
+      <label for="shipping-delivery"><input type="checkbox" id="shipping-delivery" name="important" value="shipping-delivery"> Shipping/Delivery</label>
+
+      <label for="website"> <input type="checkbox" id="website" name="important" value="website"> Website Experience</label>
+
+      <label for="communication"> <input type="checkbox" id="communication" name="important" value="communication"> Communication</label>
+
+      <label for="brand"><input type="checkbox" id="brand" name="important" value="brand"> Brand Reputation</label>
+
+      </fieldset>
+      
+      <fieldset>
+
+      <p class="label-title">How satisfied are you with FutureL's overall performance?</p>
+
+      <label for="very-s"><input id="very-s" type="radio" name="satisfaction" value="very-s"> Very Satisfied</label>
+
+      <label for="s"><input id="s" type="radio" name="satisfaction" value="s"> Satisfied</label>
+
+      <label for="n"><input id="n" type="radio" name="satisfaction" value="n"> Neatural</label>
+
+      <label for="d"><input id="d" type="radio" name="satisfaction" value="d"> Dissatisfied</label>
+
+      <label for="very-d"><input id="very-d" type="radio" name="satisfaction" value="very-d"> Very Dissatisfied</label>
+
+      </fieldset>
+      
+      <fieldset>
+
+      <label class="label-title" for="dropdown">How likely are you to recomment FutureL to friends or family?</label>
+      <select id="dropdown" name="recommendation">
+        <option value="">(select one)</option>
+        <option value="very-l">Very likely</option>
+        <option value="somewhat-l">Somewhat likely</option>
+        <option value="n">Neutral</option>
+        <option value="somewhat-ul">Somewhat unlikely</option>
+        <option value="very-ul">Very unlikely</option>
+      </select>
+      
+      </fieldset>
+      
+      <fieldset>
+      <label class="label-title" for="suggestion">What could we do to improve your experience?</label>
+      <textarea id="suggestion" name="suggestion" cols="30" rows="5"></textarea> 
+
+    </fieldset>
+    <input id="submit" type="submit" value="Submit">
+    </form>
+    </main>
+
+</body>
+</html>
+
+
+
+
+
