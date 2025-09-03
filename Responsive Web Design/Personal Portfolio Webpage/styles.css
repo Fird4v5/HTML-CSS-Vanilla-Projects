@@ -310,6 +310,9 @@ textarea {
     letter-spacing: 0.1rem; 
     font-weight: 700;
     cursor: pointer; 
+    padding: 0.3rem 0.25rem; 
+    border: 1px solid var(--first-clr);
+    border-radius: 5px; 
 }
 
 
@@ -319,6 +322,8 @@ textarea {
 .btn_submit:focus {
     background-color: var(--third-clr);
     color: var(--fourth-clr);
+    outline: none;
+    border-color: var(--third-clr);
 }
 
 /* END CONTACT SECTION */
