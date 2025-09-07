@@ -219,6 +219,7 @@ strong {
   border-radius: 30px; 
   border-color: var(--third-clr);
   cursor: pointer; 
+  margin-top: 4px; 
 }
 
 /* FOOTER  */
@@ -271,6 +272,7 @@ i {
   }
 
 }
+
 
 
 
