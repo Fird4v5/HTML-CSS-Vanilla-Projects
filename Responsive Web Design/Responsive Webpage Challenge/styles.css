@@ -160,7 +160,8 @@ span {
 
 .btn:hover, 
 .btn:focus {
-    opacity: .65; 
+    opacity: .65;
+    cursor: pointer; 
 }
 
 
