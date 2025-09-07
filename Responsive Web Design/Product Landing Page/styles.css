@@ -160,6 +160,7 @@ input {
 .button:hover,
 .button:focus {
   opacity: .75;
+  cursor: pointer; 
 }
 
 
@@ -217,6 +218,7 @@ strong {
   padding: 0.25em 1em; 
   border-radius: 30px; 
   border-color: var(--third-clr);
+  cursor: pointer; 
 }
 
 /* FOOTER  */
@@ -269,6 +271,7 @@ i {
   }
 
 }
+
 
 
 
