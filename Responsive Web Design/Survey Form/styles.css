@@ -101,6 +101,7 @@ input[type="submit"] {
 input[type="submit"]:hover,
 input[type="submit"]:focus {
   opacity: .75;
+  cursor: pointer; 
 }
 
 
